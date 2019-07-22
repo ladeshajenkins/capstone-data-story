@@ -1,0 +1,43 @@
+title: "Data story"
+author: "Ladesha Jenkins"
+header-includes:
+    - \usepackage{setspace}\doublespacing
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+
+Children learn, adapt, and take on behaviors that are taught from the many influences that he/she may encounter. The number of influences that a person has is not limited to the family members in one’s house hold. A child’s many influence can include, but are not limited to, immediate family, friends, school, neighbors, celebrities, and the biggest of all the media. The media would be considered as all forms of communication outlets like the internet, social media, news media, print media, and in specific to this project video viewing and electronic games. The media can offer good and bad influences for all viewers watching it. It is a parent’s duty to protect the child from negative influences as much as possible to ensure healthy growth and implement good behavior.
+	The media can introduce children to early exposure of media violence. Early exposure to media violence is a contributing factor to the development of aggression. The aggression then could lead to aggressive and violent behavior in children. Children are increasingly becoming heavy media consumers. Research indicates that much of the media directed at children contains violent content. Early exposure to media violence could place both male and female children at risk for the development of aggressive and violent behavior in adulthood. Children that watch shows that have violence that is realistic, consistently repeated and unpunished, are more likely to imitate what they see. Children with emotional, behavioral, learning or impulse control problems may be more easily influenced by video aggressiveness. The impact of TV violence may show immediately in the child's behavior or may surface years later. Due to the media presenting violence at a very high level, scientist have found ways parents can protect children from excessive media violence.   Each day there are multiple things and people that a child would observe where behaviors can be learned from. These multiple things would be considered as the factors of independent variables that affect behavior in children. In this project, the factors that are tested that affect behavior in children are electronics, siblings (older and younger), parental approach, and nutrition. These factors tend to be the major affects in children because these typically are things and people that the child would encounter every day. The examples set by adults, older siblings and children are the most powerful influences shaping a child's behavior and personality. Electronics a nutrition would be the next major influences on children behavior because electronic offer exposure to all types of human behavior from the negative to positive behavior. The elements or ingredients of a child's diet like thiamin treatment reverses aggressiveness in thiamin-deficient children, and sucrose and additives are suspected to induce hyperactivity.
+  
+  Of all types of behavior a child can display, the focus of the project would be on aggressive behavior. The level of aggressiveness would be determined according to the different circumstances of the household that the child lives in. it is know that all people's circumstances are different or have their own uniqueness. At a general level, realistic scenarios or cases that are close to what a child's family can fit in are projected according to the different levels of the project. Being that children would be the main focus, parents would be the audience of this project. The purpose of the project would be to predict the level of aggression with these given levels according to each factor or independent variable.
+
+
+## Data Wrangling Techniques
+
+The original dataset was transformed into a clean dataset to be used for the research. The packages necessary for the code used were plyr, dplyr, tidyr, and readxl. The names of the variables in the original dataset were changed to more applicable names. Other variables were deleted since they were unnecessary for the models.  Missing data were removed, and a column was added to distinguish between children in the United States (US) and the United Kingdom (UK).  Numeric values of zero and one were assigned to the US and UK respectively.
+
+
+## Statistical Analysis
+
+Scatter plots were developed to compare each independent variable to the dependent variable, aggression. Observing the scatter plots for each independent variable gives intuition that there is a relationship between the variables.  A supplemental analysis shows that the means and data sets for UK children and US children are similar. 
+
+Independent Variables: Nutrition, Parental Approach, Siblings, Electronic Games, and Video
+Dependent Variable: Aggression
+
+
+## Into the Dataset
+
+The dataset provides information to project the aggression level of child according to the levels of each independent variable combined into one. There includes 334 children that are from the United Kingdom, and there are 333 children that are from the United States. Give that there is one child more in the United Kingdom than in the United States there allows room for error because it is not the same amount for both countries. The most important fields of information would be what the numbers in the dataset mean. For each independent variable the numbers mean something different in terms of high or low scores. How the scores for all variables, dependent and independent, were determined is not known. It is only known that the score have been formulated according to the household circumstances of each child. High scores for parental approach means poor parenting. High scores for electronic games mean most time spent playing electronic games. High scores for video viewing means most time spent watching various mediums of videos. High score for nutrition mean a healthy diet. High score for siblings mean most aggression seen in older siblings. 
+	Limitations for this dataset would be the number of variables presented because there are more than just five variables that affect the aggressiveness in children. It has been limited to these being the major ones in the household. Due to there being more than one place a child can learn aggressive behavior from there has been a limit to only households and not places like schools and neighborhoods. Also, in the world there are more than just two countries. If there were more than one country presented that had an average of 330 children being tested for their household situation to determine aggressiveness, then the data could have a broader more accurate result of how these variables affect aggressive behavior in children. 
+	Based on the findings, the approach for this search has changed slightly from the original idea of the search. Originally, the approach was geared to the effect of television on violent behavior in children. This was the original idea without the dataset, but with the dataset the spectrum of television could be included with the variable of video viewing. With the new variable presented in the dataset it has stretched and strengthened the data to be more reliable because aggressiveness is not only caused by one factor but a multitude of factors.
+
+
+
